@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#logo{
+    margin-bottom: 5px;
+    margin-left: 3px;
+   
+}
+
+.item-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   /* border: 1px solid blue; */
+ 
+   font-size: 20px;
+
+}
+.cla{
+    margin-left: 31%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap:19px;
+}
+#men{
+display: none;
+}
+.con{
+    padding-left: 25%;
+}
+
+.login2{
+    padding: 5px 35px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+h1{
+    color: blue;
+    margin-left: 8px;
+    
+}
+a{
+  
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: color 3s all, background-color 3s all;
+    -webkit-transition: color 3s all;
+    -moz-transition: color 3s all, background-color 3s all;
+    -ms-transition: color 3s all, background-color 3s all;
+    -o-transition: color 3s all, background-color 3s all;
+}
+a:hover{
+    color: rgb(103, 76, 211);
+   
+}
+b{
+    color: rgb(103, 76, 211);
+}
+.central{
+    margin-left: 6px;
+    border: 1px solid blue;
+}
+.texto-primary{
+    padding: 6% 0 0 10px;
+    color: rgb(41, 91, 74);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.parrafo-text__none{
+    background-color: rgb(95, 207, 170);
+    margin-right: 70.9%;
+    margin-left: -2px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+   
+}
+h2{
+    font-size: 50px;
+    color: rgb(20, 20, 93);
+  
+    margin: -5px 0;
+}
+b{
+    color: rgb(103, 76, 211);
+}
+.parrafo-text{
+    font-size: 18px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8px;
+}
+.btn-elev, .btn-elev-tue{
+    border: none;
+    padding: 6px 40px;
+    color: beige;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+.btn-elev-tue{
+    color: rgb(103, 76, 211);
+    
+}
+.btn-elev-tue{
+    transition: background-color 1s ease, color 1s ease;
+}
+.btn-elev{
+    margin-left: 30px;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.btn-elev:hover{
+ color: rgb(103, 76, 211);
+ background-color: rgb(255, 255, 255); 
+}
+.btn-elev-tue:hover{
+    background-color: rgb(103, 76, 211);
+    color: aliceblue;
+}
+img{
+    height: 500px;
+    width: 950px;
+    border-radius: 10px;
+  float: right;
+ margin-top: 50px;
+ margin-right: 50px;
+ z-index: 1;
+}
+.ultimatu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 88px;
+    margin-left: 60px;
+  
+}
+.todo{
+    z-index: 3;
+    background-color: rgba(220, 225, 228, 0.564);
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 88px;
+    margin-left: 60px;
+}
+.parrfo34{
+    margin-left: 6%;
+    color: rgb(100, 95, 95);
+  
+}
+.parrfo3{
+    color: rgb(100, 95, 95);
+}
+.parrfo32{
+    margin-left: 15%;
+    color: rgb(100, 95, 95);
+}
+@media (max-width: 1450px){
+    .login2{
+        display: none;
+    }
+    #men{
+        display: block;
+        }
+    .cla{
+        display: none;
+    }
+    img{
+        margin: 1px;
+        overflow: hidden;
+        height: 60%;
+        width: 60%;
+    }
+    .parrafo-text__none{
+        margin-right: 50.9%;
+    }
+    h1{
+        margin-left: 40%;
+
+    }
+    .parrfo398{
+        display: none;
+    }
+    .parrfo398{
+        display: none;
+    }
+    #men{
+        margin-left: 45%;
+          }
+}
+
+@media (max-width: 450px){
+    img{
+        display: none;
+    }
+    .parrafo-text__none{
+        margin-right: 39.9%;
+        margin-left: 8px;
+    }
+    h1{
+        margin-left: 24%;
+        font-weight: bold;
+      font-size: 60px;
+      margin-top: 30px;
+    }
+    .todo{
+       display: flex;
+       flex-direction: column;
+    }
+    .parrfo398{
+        display: none;
+    }
+    .parrfo398{
+        display: none;
+    }
+    #men{
+      margin-left: 12%;
+      margin-bottom: 17%;
+        }
+}
