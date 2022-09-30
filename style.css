@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Alegreya Sans', sans-serif;
 }
-#logo{
+
+#logo {
     margin-bottom: 5px;
     margin-left: 3px;
-   
 }
 
-.item-2{
+.item-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,26 +20,26 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-   /* border: 1px solid blue; */
- 
-   font-size: 20px;
+    font-size: 20px;
+}
 
-}
-.cla{
+.cla {
     margin-left: 31%;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap:19px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 19px;
 }
-#men{
-display: none;
+
+#men {
+    display: none;
 }
-.con{
+
+.con {
     padding-left: 25%;
 }
 
-.login2{
+.login2 {
     padding: 5px 35px;
     border: none;
     color: aliceblue;
@@ -50,13 +51,13 @@ display: none;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-h1{
+
+h1 {
     color: blue;
     margin-left: 8px;
-    
 }
-a{
-  
+
+a {
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -66,18 +67,22 @@ a{
     -ms-transition: color 3s all, background-color 3s all;
     -o-transition: color 3s all, background-color 3s all;
 }
-a:hover{
+
+a:hover {
     color: rgb(103, 76, 211);
-   
+
 }
-b{
+
+b {
     color: rgb(103, 76, 211);
 }
-.central{
+
+.central {
     margin-left: 6px;
     border: 1px solid blue;
 }
-.texto-primary{
+
+.texto-primary {
     padding: 6% 0 0 10px;
     color: rgb(41, 91, 74);
     display: flex;
@@ -85,36 +90,43 @@ b{
     flex-wrap: wrap;
     margin-left: 30px;
 }
-.parrafo-text__none{
+
+.parrafo-text__none {
     background-color: rgb(95, 207, 170);
     margin-right: 70.9%;
     margin-left: -2px;
     text-transform: uppercase;
     color: aliceblue;
     font-weight: bold;
-   
+
 }
-h2{
+
+h2 {
     font-size: 50px;
     color: rgb(20, 20, 93);
-  
+
     margin: -5px 0;
 }
-b{
+
+b {
     color: rgb(103, 76, 211);
 }
-.parrafo-text{
+
+.parrafo-text {
     font-size: 18px;
 }
-.botones{
+
+.botones {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 8px;
 }
-.btn-elev, .btn-elev-tue{
+
+.btn-elev,
+.btn-elev-tue {
     border: none;
-    padding: 6px 40px;
+    padding: 6px 40px 0;
     color: beige;
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
@@ -122,126 +134,296 @@ b{
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
 }
-.btn-elev-tue{
+
+.btn-elev-tue {
     color: rgb(103, 76, 211);
-    
+
 }
-.btn-elev-tue{
+
+.btn-elev-tue {
     transition: background-color 1s ease, color 1s ease;
 }
-.btn-elev{
+
+.btn-elev {
     margin-left: 30px;
     transition: background-color 1s ease, color 1s ease;
 }
 
-.btn-elev:hover{
- color: rgb(103, 76, 211);
- background-color: rgb(255, 255, 255); 
+.btn-elev:hover {
+    color: rgb(103, 76, 211);
+    background-color: rgb(255, 255, 255);
 }
-.btn-elev-tue:hover{
+
+.btn-elev-tue:hover {
     background-color: rgb(103, 76, 211);
     color: aliceblue;
 }
-img{
+
+.img-1,
+.texto12 {
     height: 500px;
     width: 950px;
     border-radius: 10px;
-  float: right;
- margin-top: 50px;
- margin-right: 50px;
- z-index: 1;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
 }
-.ultimatu{
+
+.ultimatu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 88px;
-    margin-left: 60px;
-  
 }
-.todo{
+
+.todo {
     z-index: 3;
     background-color: rgba(220, 225, 228, 0.564);
+    margin-bottom: 100px;
 }
-.contenido{
+
+.contenido {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 88px;
-    margin-left: 60px;
-}
-.parrfo34{
-    margin-left: 6%;
-    color: rgb(100, 95, 95);
-  
-}
-.parrfo3{
-    color: rgb(100, 95, 95);
-}
-.parrfo32{
-    margin-left: 15%;
-    color: rgb(100, 95, 95);
-}
-@media (max-width: 1450px){
-    .login2{
-        display: none;
-    }
-    #men{
-        display: block;
-        }
-    .cla{
-        display: none;
-    }
-    img{
-        margin: 1px;
-        overflow: hidden;
-        height: 60%;
-        width: 60%;
-    }
-    .parrafo-text__none{
-        margin-right: 50.9%;
-    }
-    h1{
-        margin-left: 40%;
-
-    }
-    .parrfo398{
-        display: none;
-    }
-    .parrfo398{
-        display: none;
-    }
-    #men{
-        margin-left: 45%;
-          }
 }
 
-@media (max-width: 450px){
-    img{
+.parrfo34 {
+    color: rgb(100, 95, 95);
+
+}
+
+.parrfo3 {
+    color: rgb(100, 95, 95);
+}
+
+.parrfo32 {
+    color: rgb(100, 95, 95);
+}
+
+.fa-registered {
+    margin-left: 7px;
+    margin-bottom: 5px;
+    color: rgb(20, 20, 93);
+}
+
+.fa-cart-shopping-fast {
+    color: rgb(24, 127, 216);
+}
+
+.overlay_secunds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0 0 5%;
+    gap: 28px;
+}
+
+.texto1 {
+    display: flex;
+    float: right;
+}
+
+h4 {
+    float: right;
+    color: rgb(52, 69, 200);
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 5% 0 0;
+}
+
+.text__1 {
+    float: right;
+}
+
+.img-3 {
+    margin-top: 30px;
+    border-radius: 80% 20% 36% 64% / 39% 35% 65% 61%;
+}
+
+#img-4 {
+    border-radius: 22% 78% 36% 64% / 39% 35% 65% 61%;
+}
+
+#img-5 {
+    border-radius: 52% 48% 84% 16% / 39% 54% 46% 61%;
+}
+
+#img-6 {
+
+    border-radius: 83% 17% 34% 66% / 11% 50% 50% 89%;
+}
+
+#img-7 {
+    border-radius: 83% 17% 18% 82% / 83% 16% 84% 17%;
+}
+
+#img-8 {
+    border-radius: 26% 74% 77% 23% / 14% 16% 84% 86%;
+}
+
+#img-9 {
+    border-radius: 80% 20% 60% 40% / 79% 46% 54% 21%;
+}
+
+#img-10 {
+    border-radius: 80% 20% 60% 40% / 28% 46% 54% 72%;
+}
+
+.texto3 {
+    text-align: center;
+    margin: 3% 0 3% 25px;
+    font-size: 25px;
+}
+
+.abrigh {
+    color: blue;
+    font-weight: 800;
+}
+
+.sub {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.conetedores {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.tlg-flotante {
+    height: 250px;
+}
+
+.resumen {
+    margin: 3% 0 6% 3%;
+}
+
+@media (max-width: 1800px) {
+    .cla {
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+    }
+
+    .con {
+        display: flex;
+        float: right;
+
+    }
+
+    .ultimatu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .todo {
+        padding-left: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: rgb(246, 249, 248);
+    }
+
+    .item-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-weight: bolder;
+    }
+
+    .cla {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        font-size: 30px;
+        z-index: 1;
+    }
+
+    .fa-registered {
+        margin-top: 20px;
+
+    }
+
+    .img-1 {
         display: none;
     }
-    .parrafo-text__none{
-        margin-right: 39.9%;
-        margin-left: 8px;
+
+    .parrafo-text__none {
+        margin-right: 41%;
+        margin-left: 1%;
+        margin-top: 7%;
     }
-    h1{
-        margin-left: 24%;
-        font-weight: bold;
-      font-size: 60px;
-      margin-top: 30px;
+
+    .login2 {
+        z-index: 2;
+        margin-right: 6pc;
     }
-    .todo{
-       display: flex;
-       flex-direction: column;
+
+    .ultimatu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
     }
-    .parrfo398{
-        display: none;
+
+    .contenido {
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+
     }
-    .parrfo398{
-        display: none;
+
+    .todo {
+        padding-left: 20%;
     }
-    #men{
-      margin-left: 12%;
-      margin-bottom: 17%;
-        }
+
+    .overlay_secunds {
+        margin-left: 30.8%;
+        margin-right: 30%;
+        margin-bottom: 19%;
+        margin-top: 19%;
+    }
+
+    .sub {
+        margin: 20%;
+    }
+
+    .conetedores {
+        margin-bottom: 20%;
+    }
+
+    .parrafo-text {
+        margin: 20%;
+    }
+
+    h2 {
+        margin: 8% 0 5% 0;
+    }
+
+    .mostrar_menu {
+        display: flex;
+        flex-direction: row;
+    }
+    h4{
+        margin: 0 5% 0 0;
+    }
+
 }
