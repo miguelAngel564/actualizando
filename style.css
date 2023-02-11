@@ -194,6 +194,7 @@ b {
 
 .parrfo3 {
     color: rgb(100, 95, 95);
+   
 }
 
 .parrfo32 {
@@ -300,6 +301,21 @@ h4 {
 
 .resumen {
     margin: 3% 0 6% 3%;
+}
+.ultimatu{
+    margin-left: 2%;
+}
+.parrfo32{
+    margin-left: 8%;
+}
+.parrfo398{
+    margin-left: 8%;
+}
+.contenido{
+    margin-left: 1%;
+}
+.parrfo39{
+    margin-left: 2.4%;
 }
 
 @media (max-width: 1800px) {
@@ -425,5 +441,38 @@ h4 {
     h4{
         margin: 0 5% 0 0;
     }
+    .fadher{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .fadher{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .input, .input-2{
+        display:  flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
 }
+
+.fadher{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.input, .input-2{
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenido-secundario, .contenido-chico{
+    margin: 20px 5px;
+}
+
+
+
+
