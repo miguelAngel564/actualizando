@@ -8,30 +8,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="item-2" id="memu">
-        <!-- <i class="fa-solid fa-bars" id="icon_menu"></i> -->
-<i class="fa-solid fa-registered"></i>        
-        <h1>Soul Dev</h1>
-        <i class="fa-regular fa-bars" id="men"></i>
-        <div class="cla">
-            <a href="#"><b>Buy</b></a>
-            <a href="#">Seli</a>
-            <a href="#">Rent</a>
-            <a href="#">Saved</a>
-            <a href="#">Homes</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="con">
-            <button class="login2"> <a href="segundo.html" target="_blank" style="color: aliceblue; margin: 0 10px;"> login</a>
+    <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <i class="fa-solid fa-registered"></i>
+            <h1>Soul Dev</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
-    </div>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Buy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Seli</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Saved</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Homes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+              <span class="navbar-text">
+                 <form class="d-flex" role="search">
+      
+                     <button class="btn btn-primary" type="button"><a href="segundo.html" target="_blank"></a> Login</button>
+                 </form>
+              </span>
+            </div>
+          </div>
+      </nav>
+
     <header>
         <div class="overly">
             <img class="img-1"
@@ -80,6 +104,23 @@
     </nav>
     <h4><b> PROYECTOS HECHOS </b></h4>
     <hr> 
+
+    <div class="fadher">
+        <div class="input">
+            <p class="contenido-chico">City</p>
+            <p class="contenido-chico">Progety</p>
+            <p class="contenido-chico">City</p>
+        </div>
+
+        <div class="input-2">
+            <p class="contenido-secundario">Smoky</p>
+            <p class="contenido-secundario">Private <br> House</p>
+            <p class="contenido-secundario"> $20000 <br> - $50000</p>
+        </div>
+    </div>
+
+
+
     <div class="overlay">
         <div class="overlay_secunds">
             <img class="img-3 overlay__img"
@@ -122,6 +163,7 @@
             document.getElementById("memu").classList.toggle("mostrar_menu")
         }
         </script>
+
 </body>
 
 </html>
